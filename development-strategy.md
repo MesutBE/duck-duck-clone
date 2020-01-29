@@ -10,10 +10,14 @@
 
 | _Step Name_ | User Story | Changes in HTML | Changes in CSS |
 | --- | --- | --- | --- |
-| __Live Boilerplate__ | As an enthusiastic HYF student I can navigate to an empty website so that I know the project is set up correctly | An empty template project with `doctype`, language, charset, `head` & `body`, and evaluation script | an empty main `style.css` and an existing evaluation style |
-|  | |  |  |
-| ... | ... | ... | ... |
-| (descriptive name) | (user story) | (what did you add to the HTML?) | (what did you add to the CSS?) |
+| __wireframing__ | Designing the project website  at the structural level with [wireframe](https://wireframe.cc/RKPcww). | none | none |
+| __analyzing__ | Analyzing the project website using firefox inspector so I can divide the project in parts | none | none |
+| __writing-user-stories__ | Writing user stories so that I know the project is planned correctly | none | none |
+| __head-html__ | Creating html file and basic steps. | Adding `title`, `language`, `charset` to head tag. | none |
+| __header-html__ | Creating header section. | Making skeleton of the header section, <br> <br>Creating Navigation Bar. |
+| __content-html-1__ | Creating content section. | Creating logo, <br> <br>Creating search box, with a `form tag` which includes `text input` and `button` |
+| __styling__ | CSS styling | none | Navigation bar styles.  |
+| __accessibility__ | Fix accessibility errors | add ARIA tags that project needs |
 
 
 ---
