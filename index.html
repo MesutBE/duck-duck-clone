@@ -3,30 +3,155 @@
   <head>
     <title>Duck Duck Go Clone — Privacy, simplified.</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+
     <!-- Leave these here!  They are for the evaluation  -->
     <script src="./evaluation/init.js"></script>
   </head>
 
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><button>Twitter</button></li>
-          <li><button>Other Social Media</button></li>
-          <li><button>Settings</button></li>
-        </ul>
-      </nav>
+  <body class="site-container">
+    <header class="header-container">
+      <div class="menu">
+        <img src="img/hamburger-button.png" alt="settings image" />
+      </div>
+      <div class="arrow-down">
+        <img src="img/down-arrow-grey.png" alt="arrow down" />
+      </div>
+      <div class="item-social">
+        <a href="https://twitter.com/duckduckgo"
+          ><img class="social-button" src="img/grey-twitter.png"
+        /></a>
+      </div>
+      <span class="hidden-menu">
+        <div class="social-items">
+          <a
+            href="https://twitter.com/duckduckgo"
+            class="social-link-text"
+          >
+            <img class="social-icon" src="img/Twitter_Bird.svg" />
+            Twitter</a
+          >
+        </div>
+        <div class="social-items">
+          <a
+            href="https://reddit.com/r/duckduckgo"
+            class="social-link-text"
+          >
+            <img class="social-icon" src="img/reddit.png" />
+            Reddit</a
+          >
+        </div>
+        <div class="social-items">
+          <a
+            href="https://spreadprivacy.com"
+            class="social-link-text"
+          >
+            <img class="social-icon" src="img/blog.png" />
+            Blog</a
+          >
+        </div>
+      </span>
     </header>
-    <section>
+    <section class="showcase">
       <div class="logo">
         <img src="img/duckduckgo-2-logo.png" alt="Duck Duck Go Image" />
       </div>
       <div class="search-box">
-        <form action="">
-          <input type="text">
-          <input type="submit">
+        <form class="search-form" action="">
+          <input class="text-input" type="text" />
+          <input
+            class="search-button"
+            type="submit"
+            value="Src"
+          />
         </form>
+      </div>
+    </section>
+    <section class="flex-container">
+      <div class="flex-container-items">
+        <div class="flex-container-item-1">
+          <h2>Privacy, simplified.</h2>
+          <p>
+            Add privacy protection to your browser. Search privately, block
+            trackers, secure connections, and more — all for free.
+          </p>
+          <button class="button-2">Add DuckDuckGo to Your Browser</button>
+        </div>
+        <img
+          src="https://duckduckgo.com/assets/home/landing/background.svg"
+          alt="background image"
+        />
+        <div class="flex-container-item-2">
+          <h2 class="How-It-Works-Title">How It Works</h2>
+        </div>
+        <div class="flex-container-item-3">
+          <div class="boxes">
+            <img
+              class="box-image"
+              src="https://duckduckgo.com/assets/home/landing/icons/box.svg"
+              alt=""
+            />
+            <div class="box-title">Add to Firefox</div>
+            <div class="box-subtitle">
+              Just a few clicks to install, and you're ready to go. It's that
+              easy.
+            </div>
+          </div>
+          <div class="boxes">
+            <img
+              class="box-image"
+              src="https://duckduckgo.com/assets/home/landing/icons/browser.svg"
+              alt=""
+            />
+            <div class="box-title">Browse as Usual</div>
+            <div class="box-subtitle">
+              We'll block hidden trackers and encrypt connections to keep you
+              more private.
+            </div>
+          </div>
+          <div class="boxes">
+            <img
+              class="box-image"
+              src="https://duckduckgo.com/assets/home/landing/icons/shield.svg"
+              alt=""
+            />
+            <div class="box-title">Enjoy Peace of Mind</div>
+            <div class="box-subtitle">
+              DuckDuckGo Privacy Essentials protects your privacy, wherever the
+              Internet takes you.
+            </div>
+          </div>
+        </div>
+        <div
+          style="position: static; height: 650px; top: 100vh;width: 100%;background: #58b792; padding: 0; margin: 0;">
+          <div class="flex-container-items-2">
+            <div class="flex-container-item-4">
+              <h1
+                style="margin-top: 16px; margin-bottom: 15px; font-size: 44px; line-height: 48px; font-weight: 800; padding: 0;
+              color:#fff; text-shadow: 0 1px 4px rgba(0,0,0,0.1); text-align: center;"
+              >
+                We don’t store your <br />personal information. Ever.
+              </h1>
+              <p
+                style="color:#fff; text-shadow: 0 1px 4px rgba(0,0,0,0.1); text-align: center;"
+              >
+                Our privacy policy is simple: we don’t collect <br />
+                or share any of your personal information.
+              </p>
+              <div
+                style="color:#fff; text-shadow: 0 1px 4px rgba(0,0,0,0.1); text-align: center;"
+              >
+                <a
+                  class="add-duckduckgo-button"
+                  href="https://addons.mozilla.org/firefox/downloads/latest/duckduckgo-for-firefox/addon-385621-latest.xpi"
+                  >Add DuckDuckGo to Firefox</a
+                >
+              </div>
+            </div>
+          </div>
+          <img src="https://duckduckgo.com/assets/onboarding/bathroomguy/1-monster-v2--pre-animation.svg" alt="">
+        </div>
+        
       </div>
     </section>
   </body>
