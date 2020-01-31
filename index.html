@@ -18,14 +18,16 @@
         <img src="img/down-arrow-grey.png" alt="arrow down" />
       </div>
       <div class="item-social">
-        <a href="https://twitter.com/duckduckgo"
+        <a aria-label="Twitter" href="https://twitter.com/duckduckgo"
           ><img class="social-button" src="img/grey-twitter.png"
         /></a>
       </div>
-      <span class="hidden-menu">
+      <span class="hidden-menu" aria-hidden="true">
         <div class="social-items">
           <a
+            aria-label="Twitter Link"
             href="https://twitter.com/duckduckgo"
+            aria-hidden="true"
             class="social-link-text"
           >
             <img class="social-icon" src="img/Twitter_Bird.svg" />
@@ -34,7 +36,9 @@
         </div>
         <div class="social-items">
           <a
+            aria-label="Reddit Link"
             href="https://reddit.com/r/duckduckgo"
+            aria-hidden="true"
             class="social-link-text"
           >
             <img class="social-icon" src="img/reddit.png" />
@@ -43,7 +47,9 @@
         </div>
         <div class="social-items">
           <a
+            aria-label="Blog Link"
             href="https://spreadprivacy.com"
+            aria-hidden="true"
             class="social-link-text"
           >
             <img class="social-icon" src="img/blog.png" />
@@ -57,9 +63,10 @@
         <img src="img/duckduckgo-2-logo.png" alt="Duck Duck Go Image" />
       </div>
       <div class="search-box">
-        <form class="search-form" action="">
-          <input class="text-input" type="text" />
+        <form aria-roledescription="form" class="search-form" action="">
+          <input aria-label="Search Text" class="text-input" type="text" />
           <input
+            aria-roledescription="Search Now"
             class="search-button"
             type="submit"
             value="Src"
