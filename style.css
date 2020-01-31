@@ -340,24 +340,3 @@ img {
   padding-bottom: 2px;
 }
 
-/*
-.flex-container-item-4 {
-  width: 80%;
-  max-width: 700px;
-  margin: 0 auto;
-  color: #fff;
-  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-  display: inline-block;
-  vertical-align: middle;
-  position: relative;
-}
-
-.flex-container-items-2 {
-  content: "";
-  height: 45%;
-  display: inline-block;
-  background: #58b792;
-  height: 100vh;
-  text-align: center;
-  position: relative;
-} */
