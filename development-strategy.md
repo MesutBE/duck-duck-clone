@@ -18,6 +18,7 @@
 | __content-html-1__ | Creating content section. | Creating logo, <br> <br>Creating search box, with a `form tag` which includes `text input` and `button` |
 | __styling__ | CSS styling | none | Navigation bar styles.  |
 | __accessibility__ | Fix accessibility errors | add ARIA tags that project needs |
+| __fixing-validation-errors__ | Fix validation errors | fixing errors what needs |
 
 
 ---
