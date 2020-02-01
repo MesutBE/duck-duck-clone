@@ -11,24 +11,24 @@
 * [Useful Links](#useful-links)
 * [Contact](#contact)
 
-## General info [^](#table-of-contents)
+## General info
 
 This Project is about building my own accessible & responsive clone of the DuckDuckGo home page.
 	
-## Technologies [^](#table-of-contents)
+## Technologies
 Project is created with:
 * HTML5 /CSS3
 * Media queries for responsive layout.
 * ARIA landmark roles for accessibility features
 * :hover styles to make hidden objects visible.
 	
-## Contact [^](#table-of-contents)
+## Contact
 This is my Github Page. You can contact me
 
 ## Setup
 Clone this repository and start using it with your editor.
 
-## Development Strategy [^](#table-of-contents)
+## Development Strategy
 | _Step Name_ | User Story | Changes in HTML | Changes in CSS |
 | --- | --- | --- | --- |
 | __wireframing__ | Designing the project website  at the structural level with [wireframe](https://wireframe.cc/RKPcww). | none | none |
@@ -41,10 +41,10 @@ Clone this repository and start using it with your editor.
 | __accessibility__ | Fix accessibility errors | add ARIA tags that project needs |
 | __fixing-validation-errors__ | Fix validation errors | fixing errors what needs |
 
-## Project Status [^](#table-of-contents)
+## Project Status
 Project finished
 
-## Useful Links [^](#table-of-contents)
+## Useful Links
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 http://flexboxgrid.com/
