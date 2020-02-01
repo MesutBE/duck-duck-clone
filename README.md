@@ -4,7 +4,6 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Contact](#contact)
 * [Setup](#setup)
 * [Development Strategy](#development-strategy)
 * [Project Status](#project-status)
@@ -22,9 +21,6 @@ Project is created with:
 * Media queries for responsive layout.
 * ARIA landmark roles for accessibility features
 * :hover styles to make hidden objects visible.
-	
-## Contact
-This is my Github Page. You can contact me
 
 ## Setup
 Clone this repository and start using it with your editor.
