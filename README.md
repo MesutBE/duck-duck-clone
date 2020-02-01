@@ -10,6 +10,7 @@
 * [Project Status](#project-status)
 * [Useful Links](#useful-links)
 * [Contact](#contact)
+* [Live Project](https://mesutbe.github.io/duck-duck-clone/)
 
 ## General info
 
