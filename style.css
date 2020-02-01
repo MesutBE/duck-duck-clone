@@ -340,3 +340,20 @@ img {
   padding-bottom: 2px;
 }
 
+@media (max-width: 925px) {
+  .box-image {
+    margin: 15px 90px;
+  }
+  .box-subtitle{
+    text-align: center;
+    width: 100%;
+  }
+  .flex-container-item-3{
+    display: block;
+  }
+  .boxes{
+    margin: 0;
+    margin: auto;
+    margin-bottom: 25px;
+  }
+}
