@@ -84,6 +84,9 @@ body {
 .arrow-down:hover ~ .hidden-menu{
   display: block;
 }
+.hidden-menu:hover{
+  display: block;
+}
 
 .social-items {
   color: #666;
